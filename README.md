@@ -1,33 +1,33 @@
 # Maze Adventure 🧩
 
-Maze Adventure — это простая 2D-игра-лабиринт, написанная на **Python** с использованием библиотеки **Pygame**.  
-Цель игры — провести игрока от старта (`S`) до выхода (`E` через несколько уровней.
+**Maze Adventure** is a simple 2D maze game written in **Python** using the **Pygame** library.  
+The goal of the game is to guide the player from the start (`S`) to the exit (`E`) through multiple levels.
 
-## 🎮 Управление
-- **W / ↑** — движение вверх  
-- **S / ↓** — движение вниз  
-- **A / ←** — движение влево  
-- **D / →** — движение вправо  
+## 🎮 Controls
+- **W / ↑** — move up  
+- **S / ↓** — move down  
+- **A / ←** — move left  
+- **D / →** — move right  
 
-## 🧱 Обозначения на карте
-- `#` — стена  
-- `.` — свободный путь  
-- `S` — старт  
-- `E` — выход  
+## 🧱 Map Symbols
+- `#` — wall  
+- `.` — open path  
+- `S` — start position  
+- `E` — exit  
 
-## ⚙️ Установка и запуск
+## ⚙️ Installation and Running
 
-1. Убедитесь, что установлен Python 3.9+
-2. Установите зависимости:
+1. Make sure you have **Python 3.9+** installed.
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
-
-3. Запустите игру
+3. Run the game:
 python main.py
 
-📁 Структура проекта
+📁 Project Structure
 maze-game/
-├── main.py        # основная логика игры
-├── levels.py      # уровни лабиринта
+├── main.py        # main game logic
+├── levels.py      # maze levels
 ├── requirements.txt
 └── README.md
+
