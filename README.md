@@ -21,3 +21,13 @@ Maze Adventure — это простая 2D-игра-лабиринт, напи�
 2. Установите зависимости:
 ```bash
 pip install -r requirements.txt
+
+3. Запустите игру
+python main.py
+
+📁 Структура проекта
+maze-game/
+├── main.py        # основная логика игры
+├── levels.py      # уровни лабиринта
+├── requirements.txt
+└── README.md
